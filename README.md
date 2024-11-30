@@ -117,9 +117,3 @@ El sistema buscará continuamente dispositivos BLE si pierde la conexión. Este 
 
 ---
 
-## 📝 Licencia
-
-Este proyecto es de código abierto y se encuentra bajo la licencia **MIT**. Puedes usarlo, modificarlo y distribuirlo libremente.
-
----
-
