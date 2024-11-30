@@ -70,7 +70,7 @@
 ### Carga del Código
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu_usuario/ESPSHELL.git
+   git clone https://github.com/Lup1n-3/ESPSHELL.git
    ```
 2. Abre el archivo en el IDE de Arduino.
 3. Configura el entorno:
