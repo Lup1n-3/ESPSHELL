@@ -1,7 +1,7 @@
 
 # ESPSHELL
 
-**ESPSHELL** es un controlador BLE basado en ESP32 diseñado para manejar dispositivos remotos, como autos a control remoto, utilizando joysticks analógicos. El sistema incluye un modo turbo activable mediante un botón, y un LED indicador de conexión BLE.
+**ESPSHELL** es un controlador BLE basado en ESP32 diseñado para manejar los autos bluetooth de SHELL
 
 ---
 
@@ -109,23 +109,9 @@ El sistema buscará continuamente dispositivos BLE si pierde la conexión. Este 
 
 ---
 
-## 🛠 Problemas Conocidos
-
-1. **Interferencias BLE:**
-   - Si hay múltiples dispositivos BLE en el entorno, el escaneo puede tardar más tiempo.
-2. **Alimentación:**
-   - Asegúrate de usar una fuente de alimentación estable para el ESP32.
-
----
-
 ## 📝 Licencia
 
 Este proyecto es de código abierto y se encuentra bajo la licencia **MIT**. Puedes usarlo, modificarlo y distribuirlo libremente.
 
 ---
 
-## 💡 Créditos
-
-Desarrollado por **[Tu Nombre]**. Si tienes dudas o sugerencias, no dudes en abrir un issue en este repositorio.
-
----
