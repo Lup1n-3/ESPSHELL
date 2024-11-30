@@ -112,7 +112,7 @@ El sistema buscará continuamente dispositivos BLE si pierde la conexión. Este 
 ## 📚 Referencias Técnicas
 
 - **ESP32 BLE Arduino**: [Documentación Oficial](https://github.com/espressif/arduino-esp32/tree/master/libraries/BLE).
-- **Pinout ESP32**: [Referencia Completa](https://randomnerdtutorials.com/esp32-pinout-reference-gpios/).
+- **Pinout ESP32**: [Referencia Completa](https://www.upesy.com/cdn/shop/files/doc-esp32-pinout-reference-wroom-devkit.png).
 
 ---
 
