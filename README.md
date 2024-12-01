@@ -104,10 +104,6 @@ Para modificar la sensibilidad del joystick, ajusta el valor de `deadZone` en el
 ```cpp
 const int deadZone = 800; // Ajusta este valor según tus necesidades
 ```
-
-### Reconexión Automática
-El sistema buscará continuamente dispositivos BLE si pierde la conexión. Este comportamiento puede ser ajustado en el bucle principal del programa.
-
 ---
 
 ## 📚 Referencias Técnicas
