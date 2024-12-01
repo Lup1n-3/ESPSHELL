@@ -155,11 +155,9 @@ void loop() {
             Serial.println("Conexión exitosa al servidor BLE.");
         } else {
             Serial.println("Conexión fallida, reiniciando escaneo.");
+            BLEDevice::getScan()->start(0);  // Reinicia el escaneo si falla la conexión
         }
-    } else if (!connected) {
-        BLEDevice::getScan()->start(0);  // Reinicia el escaneo si no está conectado
-        Serial.println("Reiniciando búsqueda de dispositivo BLE...");
-        delay(5000); // Pausa breve antes de reintentar
+        doConnect = false;
     }
 
     handleTurboButton(); // Maneja el estado del botón de turbo
